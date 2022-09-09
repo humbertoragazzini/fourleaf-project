@@ -43,7 +43,7 @@ body{
         }
         /* this square make the triangle cut in the left side of the safety banner */
         #corner-cut-banner{
-            background-color: orange;
+            background-color: f18314;
             border: solid 15px white;
             width: 1280px;
             height: 1280px;
@@ -51,7 +51,6 @@ body{
             left: 813px;
             top: 142px;
             float: right;
-            rotate: ();
             transform: rotate(45deg);
         }
 
@@ -80,16 +79,16 @@ body{
         }
 
         #safety-principles{
-            background-color: lightblue;
+            background-color: #006495;
         }
         #health-and-well-being{
-            background-color: lightblue;
+            background-color: #8a1c27;
         }
         #sustainability-and-environment{
-            background-color: lightblue;
+            background-color: #91ad24;
         }
         #quality-assurance{
-            background-color: lightblue;
+            background-color: #4b3367;
         }
         #safety-principles-icon{
             background-image: url(../../images/safety-icon.svg);
