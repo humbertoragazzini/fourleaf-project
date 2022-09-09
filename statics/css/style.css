@@ -17,6 +17,7 @@ body{
     padding-right: 15px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    min-width: 275px;
 }
 header{
     max-width: 1920px;
@@ -77,8 +78,8 @@ main{
 
         #tittle-safety-and-sustainability{
             background-color: rgba(255,255,255,0.8);
-            height: 7vw;
-            width: 50vw;
+            height: 100px;
+            width: 350px;
             clip-path: polygon(100% 0, 100% 30%, 90% 100%, 0 100%, 0 0);
             position: relative;
             top: 25px;
@@ -229,84 +230,151 @@ main{
 
 /* MEDIA QUERIES */
 
-    /* navbar */
-        @media screen and (min-width: 992px){
-            #navbarNavDropdown{
-                position: absolute;
-                right: 0px;
-            }
+    @media screen and (max-width: 576px) {
+        
+        /* tittle-safety-banner */
+        .banner-safety_sustainability{
+            min-height: 200px;
+            max-height: 500px;
+            overflow: hidden;
+            margin: 20px auto;
         }
 
-    /* Font size for tittle-safety-and-sustainability h1 */
-
-        @media screen and (min-width: 576px) {
-            #tittle-safety-and-sustainability {
-                top: 45px;
-                left: 45px;
-                width: 450px;
-                height: 70px;
-            }
-            #tittle-safety-and-sustainability h1{
-                font-size: 30px;
-            }
+        #tittle-safety-and-sustainability {
+            top: 35px;
+            width: 270px;
+            height: 130px;
+            text-align: left;
+            padding-left: 10px;
+            clip-path: polygon(100% 0, 100% 30%, 70% 100%, 0 100%, 0 0);
         }
 
-        @media screen and (min-width: 768px) {
-            #tittle-safety-and-sustainability {
-                top: 45px;
-                left: 45px;
-                width: 450px;
-                height: 70px;
-            }
-            #tittle-safety-and-sustainability h1{
-                font-size: 30px;
-            }
+        /* taking care section text */
+        #taking-care-text-div{
+            width: 100%;
         }
-        @media screen and (min-width: 992px) {
-            #tittle-safety-and-sustainability {
-                top: 75px;
-                left: 100px;
-                width: 550px;
-                height: 90px;
-            }
-            #tittle-safety-and-sustainability h1{
-                font-size: 35px;
-            }
+
+        /* safety section */
+        .safety-div{
+            width: 100%;
         }
-        @media screen and (min-width: 1200px) {
-            #tittle-safety-and-sustainability {
-                top: 75px;
-                left: 100px;
-                width: 650px;
-                height: 110px;
-            }
-            #tittle-safety-and-sustainability h1{
-                font-size: 47px;
-            }
+
+        /* Service Result */
+
+        .div-text-of-result{
+            width: 100%;
         }
-        @media screen and (min-width: 1400px) {
-            #tittle-safety-and-sustainability {
-                top: 90px;
-                left: 110px;
-                width: 800px;
-                height: 135px;
-            }
-            #tittle-safety-and-sustainability h1{
-                font-size: 50px;
-            }
+
+        /* Articles of the services */
+
+        .articles-of-service{
+            width: 100%;
         }
-        @media screen and (min-width: 1900px) {
-    
-            #tittle-safety-and-sustainability {
-                top: 110px;
-                left: 115px;
-                width: 875px;
-                height: 135px;
-            }
-            #tittle-safety-and-sustainability h1{
-                font-size: 55px;
-            }
+
+        .articles-of-service article{
+            margin: 10px;
         }
+
+    }
+        #corner-cut-banner{
+
+            border: solid 5px white;
+            width: 1200px;
+            height: 1200px;
+            position: relative;
+            left: 813px;
+            top: 50px;
+            float: right;
+            transform: rotate(45deg);
+        }
+    }
+
+    @media screen and (min-width: 576px) {
+        
+        /* tittle-safety-banner */
+
+        #tittle-safety-and-sustainability {
+            top: 45px;
+            left: 45px;
+            width: 450px;
+            height: 70px;
+        }
+        #tittle-safety-and-sustainability h1{
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+
+        /* tittle-safety-banner */
+        #tittle-safety-and-sustainability {
+            top: 45px;
+            left: 45px;
+            width: 450px;
+            height: 70px;
+        }
+        #tittle-safety-and-sustainability h1{
+            font-size: 30px;
+        }
+    }
+    @media screen and (min-width: 992px) {
+        
+        /* navbar */
+        #navbarNavDropdown{
+            position: absolute;
+            right: 0px;
+        }
+
+        /* tittle-safety-banner */
+        #tittle-safety-and-sustainability {
+            top: 75px;
+            left: 100px;
+            width: 550px;
+            height: 90px;
+        }
+        #tittle-safety-and-sustainability h1{
+            font-size: 35px;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+
+        /* tittle-safety-banner */
+        #tittle-safety-and-sustainability {
+            top: 75px;
+            left: 100px;
+            width: 650px;
+            height: 110px;
+        }
+        #tittle-safety-and-sustainability h1{
+            font-size: 47px;
+        }
+    }
+    @media screen and (min-width: 1400px) {
+
+        /* tittle-safety-banner */
+        #tittle-safety-and-sustainability {
+            top: 90px;
+            left: 110px;
+            width: 800px;
+            height: 135px;
+        }
+        #tittle-safety-and-sustainability h1{
+            font-size: 50px;
+        }
+    }
+    @media screen and (min-width: 1900px) {
+
+        /* tittle-safety-banner */
+        #tittle-safety-and-sustainability {
+            top: 110px;
+            left: 115px;
+            width: 875px;
+            height: 135px;
+        }
+        #tittle-safety-and-sustainability h1{
+            font-size: 55px;
+        }
+    }
 
 
 
