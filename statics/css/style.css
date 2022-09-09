@@ -40,6 +40,7 @@ body{
             background-size: cover;
             height: 25vw;
             overflow: hidden;
+            margin: 25px auto;
         }
         /* this square make the triangle cut in the left side of the safety banner */
         #corner-cut-banner{
@@ -119,17 +120,31 @@ body{
 
         .squares-with-principles{
             height: 350px;
+            color: white;
         }
     
     /* Services Result */
         .result-of-service{
             text-align: center;
+            margin: 25px auto;
+        }
+
+    /* Horizontal line */
+        
+        main hr{
+            border-width: 10px;
+            color: #f18314;
+            opacity: 1;
         }
     
     /* Articles */
         
         .articles-of-service img{
             width: 100%;
+        }
+
+        .articles-of-service article{
+            background-color: #f7f3f4;
         }
 
 /* FOOTER */
@@ -139,11 +154,25 @@ body{
             text-align: center;
         }
         #button-contact-us{
-            width: 80px;
-            height: 50px;
-            background-color: rgba(255, 255, 255, 0.7);
-            color: black;
             text-decoration: none;
+            color: black;
+            display: flex;
+            width: 200px;
+            height: 50px;
+            background-color: rgba(255,255,255,0.8);
+            margin: auto;
+        }
+
+        #button-contact-us p{
+            margin: auto;
+        }
+
+        #button-contact-us span,i{
+            margin: auto 5px;
+        }
+        .contact-us{
+            background-color: #f18314;
+            height: 350px;
         }
 
 
