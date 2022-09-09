@@ -31,6 +31,7 @@ body{
 
 
 /* MAIN */
+
     
     /* BANNER SAFETY AND SUSTAINABILITY */
 
@@ -71,10 +72,54 @@ body{
         padding-left: 2vw;
     }
 
-    /* Principles and safety section */
+
+    /* PRINCIPLES AND SAFETY SECTION */
 
         div .principles-and-safety-section{
             text-align: center;
+        }
+
+        #safety-principles{
+            background-color: lightblue;
+        }
+        #health-and-well-being{
+            background-color: lightblue;
+        }
+        #sustainability-and-environment{
+            background-color: lightblue;
+        }
+        #quality-assurance{
+            background-color: lightblue;
+        }
+        #safety-principles-icon{
+            background-image: url(../../images/safety-icon.svg);
+        }
+
+        #health-and-well-being-icon{
+            background-image: url(../../images/health-icon.svg);
+        }
+        #sustainability-and-environment-icon{
+            background-image: url(../../images/sustainability-icon.svg);
+        }
+        #quality-assurance-icon{
+            background-image: url(../../images/quality-icon.svg);
+        }
+
+        .svg-icons{
+            margin: auto;
+            background-repeat: no-repeat;
+            width: 50%;
+            height: 50%;
+            background-size: contain;
+            background-position: center;
+        }
+
+        div .principles-and-safety-section p,h2{
+            margin: 25px auto;
+        }
+
+        .squares-with-principles{
+            height: 350px;
         }
     
     /* Services Result */
