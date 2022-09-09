@@ -55,6 +55,11 @@ body{
         padding-left: 2vw;
     }
 
+    /* Principles and safety section */
+
+        div .principles-and-safety-section{
+            text-align: center;
+        }
 
 
 
