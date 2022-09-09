@@ -15,7 +15,6 @@ body{
     margin: 0px auto;
     padding-left: 15px;
     padding-right: 15px;
-    max-width: 2160px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
@@ -188,7 +187,9 @@ body{
         .articles-of-service article{
             background-color: #f7f3f4;
         }
-
+        .articles-of-service article div{
+            padding: 15px;
+        }
 /* FOOTER */
 
         /*Contact section*/
