@@ -62,6 +62,17 @@ body{
         div .principles-and-safety-section{
             text-align: center;
         }
+    
+    /* Services Result */
+        .result-of-service{
+            text-align: center;
+        }
+    
+    /* Articles */
+        
+        .articles-of-service img{
+            width: 100%;
+        }
 
 /* FOOTER */
 
