@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap');
 
+/* general rules */
+h1{
+    font-size: 4em;
+}
+h2{
+    font-size: 2.5em;
+}
+
+.bold-text{
+    font-weight: 500;
+}
 body{
     margin: 0px auto;
     padding-left: 15px;
     padding-right: 15px;
     max-width: 2160px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -75,8 +87,14 @@ body{
 
     /* PRINCIPLES AND SAFETY SECTION */
 
-        div .principles-and-safety-section{
+        .principles-and-safety-section{
             text-align: center;
+            width: 90%;
+            margin: 25px auto;
+        }
+        #taking-care-text-div{
+            margin: 25px auto;
+            width: 50%;
         }
 
         #safety-principles{
@@ -120,12 +138,31 @@ body{
 
         .squares-with-principles{
             height: 350px;
+            margin: 10px auto;
             color: white;
+            padding: 25px;
+        }
+        .squares-with-principles h2{
+            font-size: 1.5em;
+        }
+        .squares-with-principles p{
+            font-size: 1.2em;
+        }
+
+        .safety-div{
+            width: 75%;
+            margin: 25px auto;
         }
     
     /* Services Result */
         .result-of-service{
             text-align: center;
+            margin: 25px auto;
+            width: 75%;
+        }
+
+        .div-text-of-result{
+            width: 75%;
             margin: 25px auto;
         }
 
@@ -135,10 +172,15 @@ body{
             border-width: 10px;
             color: #f18314;
             opacity: 1;
+            width: 85%;
+            margin: 25px auto;
         }
     
     /* Articles */
-        
+        .articles-of-service{
+            width: 75%;
+            margin: 25px auto;
+        }
         .articles-of-service img{
             width: 100%;
         }
