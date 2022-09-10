@@ -46,25 +46,27 @@ main{
             font-weight: 600;
             color: black;
             border-bottom: solid 0px #ea6c3a;
+            padding-bottom: 4px;
             font-size: 15px;
         }
 
         @keyframes navbar-hover-animation {
             from { 
                 color: black;
-                border-bottom: solid 4px #00ea6c3a;
+                border-bottom: solid 0px #00ea6c3a;
+
             }
             to {
                 color: #ea6c3a;
-                border-bottom: solid 4px #ffea6c3a;
+                border-bottom: solid 4px #ea6c3a;
             }
         }
           
         .main-menu a:hover{
             color: #ea6c3a;
-            border-bottom: solid 0px #ffea6c3a;
-            animation-name: navbar-hover-animation; !important
-            animation-duration: .4s; !important
+            border-bottom: solid 4px #ea6c3a;
+            animation-name: navbar-hover-animation;
+            animation-duration: .2s;
           }
         
 
@@ -343,6 +345,10 @@ main{
         #navbarNavDropdown{
             position: absolute;
             right: 0px;
+        }
+        /* fixed the movement of navbar when the horizontal line is enabled on the bottom of the dropdown menu */
+        .main-menu ul{
+            height: 40px;
         }
 
         /* tittle-safety-banner */
