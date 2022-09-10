@@ -13,8 +13,12 @@ h2{
 }
 
 /* class added to make space between h2 and p */
-.spacer{
+.spacer-between-text{
     margin: 25px auto;
+}
+
+.spacer-between-sections{
+    margin: 35px auto;
 }
 
 body{
