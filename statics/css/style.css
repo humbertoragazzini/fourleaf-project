@@ -40,6 +40,10 @@ main{
         margin: 10px auto;
     }
 
+    .desktop-navbar{
+        justify-content: end;
+    }
+
     /* buttons navbar */
 
         .main-menu a{
@@ -88,7 +92,7 @@ main{
         /* this square make the triangle cut in the left side of the safety banner */
         #corner-cut-banner{
             background-color: f18314;
-            border: solid 15px white;
+            border: solid 5px white;
             width: 1280px;
             height: 1280px;
             position: relative;
@@ -297,7 +301,7 @@ main{
             margin: 10px;
         }
 
-    }
+    
         #corner-cut-banner{
 
             border: solid 5px white;
@@ -340,7 +344,7 @@ main{
         }
     }
     @media screen and (min-width: 992px) {
-        
+    
         /* navbar */
         
         #navbarNavDropdown{
