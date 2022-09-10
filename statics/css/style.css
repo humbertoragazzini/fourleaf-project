@@ -46,7 +46,6 @@ main{
             font-weight: 600;
             color: black;
             border-bottom: solid 0px #ea6c3a;
-            padding-bottom: 4px;
             font-size: 15px;
         }
 
@@ -62,12 +61,13 @@ main{
             }
         }
           
-        .main-menu a:hover{
+        .main-menu-item-hover:hover{
             color: #ea6c3a;
+            padding-bottom: 4px;
             border-bottom: solid 4px #ea6c3a;
             animation-name: navbar-hover-animation;
             animation-duration: .2s;
-          }
+        }
         
 
 
@@ -342,13 +342,10 @@ main{
     @media screen and (min-width: 992px) {
         
         /* navbar */
+        
         #navbarNavDropdown{
             position: absolute;
             right: 0px;
-        }
-        /* fixed the movement of navbar when the horizontal line is enabled on the bottom of the dropdown menu */
-        .main-menu ul{
-            height: 40px;
         }
 
         /* tittle-safety-banner */
@@ -401,6 +398,5 @@ main{
             font-size: 55px;
         }
     }
-
 
 
