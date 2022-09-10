@@ -171,11 +171,17 @@ main{
         }
 
         .squares-with-principles{
-            height: 350px;
-            margin: 10px auto;
+            overflow: hidden;
+            width: 100%;
+            aspect-ratio: 4 / 3;
             color: white;
-            padding: 25px;
         }
+        /* maque the inside of the squares full with for the content, reducing the space between squares */
+        .principles-and-safety-section .col-lg-3{
+            padding: 5px;
+            border: solid 3px white;
+        }
+
         .squares-with-principles h2{
             font-size: 1.5em;
         }
