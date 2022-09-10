@@ -262,6 +262,25 @@ main{
             background-color: #f18314;
             height: 350px;
         }
+        /* Partners section */
+        .partners{
+            background-color: #666666;
+            height: 175px;
+        }
+        .partners h3 {
+            width: 75%; 
+            text-align: center; 
+            font-size: 20px;
+            border-bottom: 1px solid #fff; 
+            line-height: 0.1em;
+            margin: auto; 
+            color: #fff;
+         } 
+         
+         .partners h3 span { 
+             background:#666666; 
+             padding:0 10px; 
+         }
 
 
 /* MEDIA QUERIES */
