@@ -11,6 +11,12 @@ h2{
 .bold-text{
     font-weight: 500;
 }
+
+/* class added to make space between h2 and p */
+.spacer{
+    margin: 25px auto;
+}
+
 body{
     margin: 0px auto;
     padding-left: 15px;
@@ -158,16 +164,12 @@ main{
         }
 
         .svg-icons{
-            margin: auto;
+            margin: 10px auto auto;
             background-repeat: no-repeat;
             width: 50%;
             height: 50%;
             background-size: contain;
             background-position: center;
-        }
-
-        div .principles-and-safety-section p,h2{
-            margin: 25px auto;
         }
 
         .squares-with-principles{
@@ -184,11 +186,9 @@ main{
 
         .squares-with-principles h2{
             font-size: calc(10px + 6 * ((100vw) / 1000));
-            margin: 5px auto;
         }
         .squares-with-principles p{
             font-size: calc(7px + 6 * ((100vw) / 1000));
-            margin: 5px auto;
         }
 
         .safety-div{
