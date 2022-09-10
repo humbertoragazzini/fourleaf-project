@@ -97,7 +97,6 @@ main{
             height: 25vw;
             max-height: 500px;
             overflow: hidden;
-            margin: 20px auto;
         }
         /* this square make the triangle cut in the left side of the safety banner */
         #corner-cut-banner{
@@ -197,7 +196,6 @@ main{
 
         .safety-div{
             width: 75%;
-            margin: 25px auto;
         }
     
     /* Services Result */
