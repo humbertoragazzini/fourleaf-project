@@ -183,10 +183,12 @@ main{
         }
 
         .squares-with-principles h2{
-            font-size: 1.5em;
+            font-size: calc(10px + 6 * ((100vw) / 1000));
+            margin: 5px auto;
         }
         .squares-with-principles p{
-            font-size: 1.2em;
+            font-size: calc(7px + 6 * ((100vw) / 1000));
+            margin: 5px auto;
         }
 
         .safety-div{
