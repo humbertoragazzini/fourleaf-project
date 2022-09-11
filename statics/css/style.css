@@ -281,6 +281,14 @@ main{
              background:#666666; 
              padding:0 10px; 
          }
+         .partners-logo-row{
+            width: 65%;
+            margin: 0px auto 0px auto;
+         }
+         .partners-logo-row img{
+            width: 100%;
+            aspect-ratio: 1/1;
+         }
 
 
 /* MEDIA QUERIES */
