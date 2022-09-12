@@ -121,6 +121,7 @@ main{
             left: 25px;
             display: flex;
             align-items: center;
+            opacity: 0;
         }
 
     #tittle-safety-and-sustainability h1{
@@ -443,16 +444,17 @@ main{
 
 /* Animations */
 
-/* The animation code */
-@keyframes transparent-effect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
+    /* The animation code */
+        @keyframes transparent-effect {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
   
-  /* The element to apply the animation to */
-   .transparent-animation{
-    animation-name: transparent-effect;
-    animation-duration: 4s;
-  }
+    /* The element to apply the animation to */
+        .transparent-animation{
+        animation-name: transparent-effect;
+        animation-fill-mode: forwards;
+        animation-duration:  4s;
+    }
 
 
